@@ -1,0 +1,6 @@
+# Optional graph stack for experiments outside the FireMap runtime server.
+# These packages may require a matching PyTorch/Python wheel or a local C++ build.
+torch-scatter>=2.1.2
+torch-sparse>=0.6.18
+torch-cluster>=1.6.3
+torch-geometric>=2.5.0

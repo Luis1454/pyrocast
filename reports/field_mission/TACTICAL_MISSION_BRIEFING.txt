@@ -1,0 +1,43 @@
+================================================================================
+           FIREMAP PRO : ORDRE D'OPÉRATIONS & BULLETIN TACTIQUE FDF5
+                 Direction des Secours / PC de Crise (CODIS)
+================================================================================
+[1] SITUATION GÉNÉRALE & CONDITIONS D'AÉROLOGIE
+    - Vent dominant         : NW (55.0 km/h) | T_air: 34.0 °C
+    - Humidité Combustible  : 6.0 % (FMC Nelson) | Pente moyenne: 19.7°
+    - Végétation dominante  : Maquis Dense / Garrigue Haute (SH5)
+
+[2] DIAGNOSTIC PHYSIQUE DU COMPORTEMENT DU FEU (ROTHERMEL / BYRAM)
+    - Vitesse de tête (ROS) : 24.05 km/h (400.8 m/min)
+    - Vitesse de flanc      : 8.9 m/min
+    - Intensité de Byram    : 188790.0 kW/m
+    - Longueur de flamme    : 11.64 m
+    - Hauteur d'écobuage    : 21.17 m
+    - Risque Feu de Cime    : FEU DE CIME ACTIF (Propagation Éruptive)
+    - Catégorie SDI         : Niveau 4 : EXTRÊME - Incontrôlable / Évacuation Immédiate
+
+[3] ÉTAT DU SINISTRE (HORIZON SIMULÉ)
+    - Surface active brûlée : 2.34 Hectares
+    - Périmètre actif       : 0.55 km
+    - Potentiel de cime     : TRÈS ÉLEVÉ
+
+[4] ANALYSE DE VULNÉRABILITÉ SUR LES SITES CRITIQUES (POIs)
+    * Village de Beauregard [GPS: 43.53255, 5.45984]
+      - Statut             : HORS D'ATTEINTE (Horizon simulé)
+      - Délai d'impact     : N/A min
+      - Préconisation      : Surveillance préventive
+    * Ligne Haute Tension 400kV [GPS: 43.53713, 5.45315]
+      - Statut             : HORS D'ATTEINTE (Horizon simulé)
+      - Délai d'impact     : N/A min
+      - Préconisation      : Surveillance préventive
+    * Centre de Secours Avancé [GPS: 43.52904, 5.44758]
+      - Statut             : HORS D'ATTEINTE (Horizon simulé)
+      - Délai d'impact     : N/A min
+      - Préconisation      : Surveillance préventive
+================================================================================
+[5] DIMENSIONNEMENT OPÉRATIONNEL DES MOYENS
+    - Moyens terrestres     : 121 GIFF recommandés en attaque/protection
+    - Moyens aériens        : 9 rotations Canadair CL-415 (55170.0 L retardant)
+    - Appui génie           : Tranchée coupe-feu 1289.0 m/h requise
+    - Doctrine d'engagement : Comportement éruptif extrême. Repli sur points de survie et évacuation des zones d'impact.
+================================================================================

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>FireMap - Rapport de Validation Métrologique CFD/IA</title>
+    <style>
+        body {
+            background-color: #0b0f19;
+            color: #e2e8f0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 30px;
+        }
+        .header {
+            border-bottom: 1px solid #1e293b;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #ff5722;
+            margin: 0;
+            font-size: 28px;
+        }
+        .header p {
+            color: #94a3b8;
+            margin: 6px 0 0 0;
+        }
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+        .metric-card {
+            background: #131c2e;
+            border: 1px solid #1e293b;
+            border-radius: 8px;
+            padding: 16px;
+        }
+        .metric-title {
+            font-size: 12px;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .metric-val {
+            font-size: 24px;
+            font-weight: bold;
+            color: #38bdf8;
+            margin-top: 8px;
+        }
+        .plot-container {
+            background: #131c2e;
+            border: 1px solid #1e293b;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .plot-container h3 {
+            margin-top: 0;
+            color: #f8fafc;
+        }
+        .plot-container img {
+            width: 100%;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>FireMap : Validation Physique & Métrologique</h1>
+        <p>Moteur Neural FMM / Multi-Scale GNN sur Maillage Adaptatif Octree (Benchmark vs WRF-SFIRE CFD)</p>
+    </div>
+
+    <h2>1. Indicateurs Métrologiques Clés (Vérification & Validation)</h2>
+    <div class="metrics-grid">
+        
+            <div class="metric-card">
+                <div class="metric-title">Spatial Iou</div>
+                <div class="metric-val">0.9916</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-title">Spatial Dice</div>
+                <div class="metric-val">0.9958</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-title">Hausdorff Distance Meters</div>
+                <div class="metric-val">30.0000</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-title">Rate Of Spread Error Pct</div>
+                <div class="metric-val">0.8475</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-title">Energy Enthalpy Drift Pct</div>
+                <div class="metric-val">5.9006</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-title">Fuel Mass Drift Pct</div>
+                <div class="metric-val">0.0000</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-title">Brier Score</div>
+                <div class="metric-val">0.0967</div>
+            </div>
+            
+    </div>
+
+    <h2>2. Visualisations Spatiales et Diagnostics Physiques</h2>
+    
+            <div class="plot-container">
+                <h3>00 Fire Propagation Animated</h3>
+                <img src="00_fire_propagation_animated.gif" alt="00_fire_propagation_animated">
+            </div>
+            
+            <div class="plot-container">
+                <h3>01 Octree Adaptation</h3>
+                <img src="01_octree_adaptation.png" alt="01_octree_adaptation">
+            </div>
+            
+            <div class="plot-container">
+                <h3>02 Rollout Benchmark</h3>
+                <img src="02_rollout_benchmark.png" alt="02_rollout_benchmark">
+            </div>
+            
+            <div class="plot-container">
+                <h3>03 Monte Carlo Hazard</h3>
+                <img src="03_monte_carlo_hazard.png" alt="03_monte_carlo_hazard">
+            </div>
+            
+            <div class="plot-container">
+                <h3>04 Physics Diagnostics</h3>
+                <img src="04_physics_diagnostics.png" alt="04_physics_diagnostics">
+            </div>
+            
+</body>
+</html>
